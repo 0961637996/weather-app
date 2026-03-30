@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "tog">
+            <img class="moon" src="https://img.icons8.com/pulsar-gradient/96/moon.png">
+            <img class="sun" src="https://img.icons8.com/pulsar-gradient/96/sun.png">
+        </div>
+        <div class="zoom">
+            <div class = "headler">Weather App</div>
+            <div class="underheadler">Are you curious about today's weather?</div>
+            <div class="search">
+                <div class="searchbox">
+                    <input class="input" type="text" placeholder="Search for a place ....">
+                    <div class="hist"></div>
+                </div>
+                <button class="button" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <p class="error"></p>
+        </div>
+
+
+        <div class="xuathien">
+            <div class="all">
+                <div class = "left">
+                    <p class="temp"></p>
+                    <p class = "now"></p>
+                    <p class="desc"></p>
+                    <p class="name"></p>
+                </div>
+                <img class="icon">
+            </div>
+            <div class = "can">
+                <div class="card">
+                    <P>Feels like</P>
+                    <p class = "feelslike"></p>
+                </div>
+                <div class="card">
+                    <p>Humidity</p>
+                    <p class = "humidity"></p>
+                </div>
+                <div class="card">
+                    <p>Wind</p>
+                    <p class = "wind"></p>
+                </div>
+                <div class="card">
+                    <p>Precipitation</p>
+                    <p class = "prec"></p>
+                </div>
+            </div>
+            <p class="hourly">Hourly forecast:</p>
+            <div class = "forecastweather can"></div>
+        </div>
+    </body>
+    <script src="config.js"></script>
+    <script src="javascript.js"></script>
+</html>
